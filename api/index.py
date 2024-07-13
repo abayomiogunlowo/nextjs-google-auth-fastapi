@@ -19,7 +19,7 @@ app = FastAPI()
 # CLIENT_SECRETS_FILE = "client_secret.json"
 CLIENT_SECRETS_FILE = os.path.join(dir_path, "client_secret.json")
 SCOPES = ['openid', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile']
-REDIRECT_URI = 'https://google-auth-starter.vercel.app/api/google/auth'
+REDIRECT_URI = 'google-auth-starter.vercel.app/api/google/auth'
 
 FRONTEND_CLIENT_SUCCESS_URI = 'https://google-auth-starter.vercel.app/user'
 FRONTEND_CLIENT_FAILURE_URI = 'https://google-auth-starter.vercel.app/'
