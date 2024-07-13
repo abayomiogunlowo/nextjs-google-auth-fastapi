@@ -21,8 +21,8 @@ CLIENT_SECRETS_FILE = os.path.join(dir_path, "client_secret.json")
 SCOPES = ['openid', 'https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile']
 REDIRECT_URI = 'http://localhost:3000/api/google/auth'
 
-FRONTEND_CLIENT_SUCCESS_URI = 'http://localhost:3000/user'
-FRONTEND_CLIENT_FAILURE_URI = 'http://localhost:3000'
+FRONTEND_CLIENT_SUCCESS_URI = 'https://google-auth-starter.vercel.app/user'
+FRONTEND_CLIENT_FAILURE_URI = 'https://google-auth-starter.vercel.app/'
 # REDIRECT_URI = 'https://nextjs-flow.vercel.app/api/google/auth'
 
 # FRONTEND_CLIENT_SUCCESS_URI = 'https://nextjs-flow.vercel.app/user'
